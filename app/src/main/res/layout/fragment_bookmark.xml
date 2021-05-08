@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/bookmarkFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackground"
+    tools:context=".BookmarkFragment">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/bookmark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+    <LinearLayout
+android:id="@+id/BLUEZONE"
+
+      android:background="@drawable/white_rectangle_background"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,1:1"
+      app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05">
+
+        <ImageButton
+
+            android:id="@+id/bluezone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bluezone"
+            >
+
+        </ImageButton>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Bluezone"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ZINGMP3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+android:layout_marginRight="200dp"
+
+
+        android:layout_marginTop="15dp"
+
+        android:background="@drawable/white_rectangle_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05">
+
+        <ImageButton
+            android:id="@+id/zingmp3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:background="@drawable/zingmp3"
+
+
+/>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Zing MP3"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/BAOMOI"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/white_rectangle_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/ZINGMP3"
+
+        app:layout_constraintVertical_bias="0.05">
+
+        <ImageButton
+
+            android:id="@+id/baomoi"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/baomoi"
+            >
+
+        </ImageButton>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Báo mới"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/MEDIUM"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/white_rectangle_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/BLUEZONE"
+
+        app:layout_constraintVertical_bias="0.05">
+
+        <ImageButton
+
+            android:id="@+id/medium"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/medium"
+           >
+
+        </ImageButton>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Medium"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
